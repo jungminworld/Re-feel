@@ -281,7 +281,7 @@ body {
 #motto {
     width: 1320px;
     text-align: center;
-    padding-left: 350px;
+    margin: 0 auto;
     padding-top: 50px;
 }
 
