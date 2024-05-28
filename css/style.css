@@ -241,8 +241,6 @@ body {
 
 /* main_banner */
 #main_banner {
-    height: 800px;
-    /* background-color: skyblue; */
     padding-top: 80px;
 }
 
@@ -294,11 +292,6 @@ body {
     }
 }
 
-/* banner */
-.banner {
-    height: 400px;
-}
-
 /* our_value */
 #our_value {
     width: 1000px;
@@ -322,17 +315,17 @@ body {
     box-sizing: border-box;
 }
 
-.icon:hover img {
-    transition: all 0.5s;
-    transform: rotateY(180deg);
-}
-
 .icon img {
     margin: auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon:hover img {
+    transition: all 0.5s;
+    transform: rotateY(180deg);
 }
 
 .icon_text {
@@ -419,6 +412,7 @@ body {
     background: url(../images/meet_us_online_2.jpg) no-repeat center top;
     padding: 40px 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .online_wrapper {
@@ -827,7 +821,10 @@ body {
 /* storyboard */
 #storyboard {
     position: relative;
+}
 
+.storyboard_outer {
+    overflow: hidden;
 }
 
 .storyboard_inner {
